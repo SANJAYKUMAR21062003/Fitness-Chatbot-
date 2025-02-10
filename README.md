@@ -57,6 +57,9 @@ streamlit run chatbot_ui.py
 #Screenshot of UI
 
 
+![image alt](https://github.com/SANJAYKUMAR21062003/Fitness-Chaatbot/blob/48ad963b53e79da542317beead8d0b174641012b/Screenshot%20(3).png)
+
+
 
 #License
 MIT License
