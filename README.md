@@ -57,7 +57,7 @@ streamlit run chatbot_ui.py
 #Screenshot of UI
 
 
-![image alt](https://github.com/SANJAYKUMAR21062003/Fitness-Chaatbot/blob/48ad963b53e79da542317beead8d0b174641012b/Screenshot%20(3).png)
+![image alt](https://github.com/SANJAYKUMAR21062003/Fitness-Chaatbot/blob/ba684b72e1d9f6b20bf7e41d859eb9b5a7dc132e/UI.png)
 
 
 
