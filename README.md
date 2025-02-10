@@ -1,29 +1,35 @@
-Fitness Chatbot 
-Overview
-The AI-Powered Fitness Chatbot is an interactive fitness assistant that provides personalized workout recommendations based on user preferences, goals, and available equipment. It leverages Google Generative AI for intelligent responses and uses Streamlit for a user-friendly interface.
+#Fitness Chatbot
 
-Features
-✅ AI-driven chatbot for fitness guidance
-✅ Personalized workout recommendations
-✅ Tracks user preferences & history
-✅ Beginner-friendly & interactive UI
-✅ Supports home & gym workouts
-✅ Exercises categorized by muscle groups
-✅ BMR Calculator for calorie needs
+Introduction
+The AI-Powered Fitness Chatbot is a personalized AI fitness companion that provides:
 
-Tech Stack
-Backend
-Python
-Google Generative AI
-JSON (data storage)
-Python-dotenv (environment management)
-Frontend
-Streamlit
-Project Structure
-bash
-Copy
-Edit
-Project_Folder/
+• Exercise descriptions with clear instructions and form tips
+• Tailored workout recommendations based on user goals (muscle gain, weight loss, endurance)
+• Fitness Q&A covering training principles, nutrition, and general fitness guidance
+
+Whether you're a beginner or a fitness enthusiast, this chatbot adapts to your needs, offering customized workouts for both gym & home training using barbells, cables, and bodyweight exercises.
+
+#Key Features
+
+• Exercise Library – Detailed descriptions of exercises categorized by muscle groups
+• Personalized Workout Plans – Tailored routines based on user input
+• AI-Powered Responses – Answers to fitness-related questions using Google Generative AI
+• Beginner-Friendly UI – Simple interface powered by Streamlit
+• BMR Calculator – Estimates daily calorie needs for goal-based planning
+
+#Technologies Used
+
+Technology	Purpose
+Python	Core programming language
+Google Generative AI	AI-driven workout recommendations
+Streamlit	Web framework for building the user interface
+Pandas	Data manipulation and exercise database management
+JSON	Stores user preferences & workout history
+Python-dotenv	Manages API keys and environment variables
+
+#Project Structure
+
+fitness_chatbot/
 ├── chatbot.py          # Main chatbot logic
 ├── chatbot_ui.py       # Streamlit User Interface
 ├── database.py         # Handles workout database interactions
@@ -33,45 +39,27 @@ Project_Folder/
 ├── .env                # Environment variables
 ├── requirements.txt    # Project dependencies
 ├── README.md           # Project documentation
-Installation & Setup
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
+
+#How to Run Locally
+
+1. Clone the Repository
 git clone https://github.com/your-username/fitness-chatbot.git
 cd fitness-chatbot
-2️⃣ Install Dependencies
-bash
-Copy
-Edit
+2. Install Dependencies
 pip install -r requirements.txt
-3️⃣ Set Up Environment Variables
-Create a .env file in the root directory
-Add your Google API Key inside .env:
-ini
-Copy
-Edit
+3.Set Up Environment Variables
+• Create a .env file in the root directory
+• Add your Google API Key inside .env:
 GOOGLE_API_KEY=your_api_key_here
-4️⃣ Run the Chatbot
-bash
-Copy
-Edit
+4.Run the Chatbot
 streamlit run chatbot_ui.py
-Usage
-1️⃣ Open the Streamlit UI
-2️⃣ Enter your details (weight, height, goals, equipment)
-3️⃣ Receive personalized workout plans
-4️⃣ Modify your preferences anytime
+
+#Screenshot of UI
 
 
-Future Enhancements 🚀
-✅ Voice-enabled chatbot interaction
-✅ Workout tracking & analytics
-✅ Integration with wearable fitness devices
-✅ Mobile app version
-Contributors
-👤 SANJAYKUMAR S – Developer
 
-License
-📜 MIT License
+#License
+MIT License
 
+#Get Involved
+Contributions, suggestions, and feedback are welcome! Feel free to open issues or submit pull requests.
