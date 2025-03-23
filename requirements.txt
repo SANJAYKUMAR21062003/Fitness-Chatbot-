@@ -1,5 +1,4 @@
-streamlit
-google.generativeai
-python-dotenv
-json
-os
+Flask==2.3.2
+Flask-Mail==0.9.1
+google-generativeai==0.3.0
+Werkzeug==2.3.7
