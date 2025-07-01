@@ -1,4 +1,4 @@
-# Genfit AI
+# GenFit AI
 
 A web-based fitness chatbot application built with Flask and Google's Gemini AI. The application provides workout suggestions based on user preferences and allows users to interact with a chatbot for fitness-related advice.
 
